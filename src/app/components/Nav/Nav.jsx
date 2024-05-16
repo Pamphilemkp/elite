@@ -66,8 +66,8 @@ function Nav() {
           </motion.div>
         ) : null}
         <div className='languages' >
-        <span onClick={selectEn} class="fi fi-gb"></span>
-        <span onClick={selectAr} class="fi fi-ae"></span>
+        <span onClick={selectEn} className="fi fi-gb"></span>
+        <span onClick={selectAr} className="fi fi-ae"></span>
         </div>
         <div onClick={menuTogglerHandler} className="hamburger">
           {active ? (

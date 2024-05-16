@@ -5,8 +5,6 @@ import "./Contact.scss"
 import { Vidaloka } from 'next/font/google'
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import Sec5 from '../components/Sec5/Sec5.jsx';
-
 
 
 const vidaloka = Vidaloka({
@@ -20,7 +18,6 @@ function Contact() {
   
   return (
     <section className={vidaloka.className} id='Contact' >
-      <Sec5 />
       <div className='contact-text'> 
       <h2> <FaPhoneAlt /> +971 504 036 780</h2>
       <h2> <FaPhoneAlt /> +971 505 640 674</h2>
